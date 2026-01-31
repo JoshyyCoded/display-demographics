@@ -1,0 +1,31 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int studentID;
+        string fullName, nickName, gender, yearLevel, homeLocation, mobileNum, course, personalEmail;
+        
+        studentID = 202310001;
+        fullName = "John Michael Reyes";
+        nickName = "Mike";
+        gender = "Male";
+        yearLevel = "3rd Year";
+        homeLocation = "123 St. Greenfield, Metro City";
+        course = "Bachelor of Science in Information Technology";
+        mobileNum = "+639123456789";
+        personalEmail = "mike.reyes@example.com";
+        
+        Console.WriteLine("Demographics Program by Jos Hua Necole Largado");
+        Console.WriteLine($"Student ID     : {studentID}");
+        Console.WriteLine($"Full Name      : {fullName}");
+        Console.WriteLine($"Nick Name      : {nickName}");
+        Console.WriteLine($"Gender         : {gender}");
+        Console.WriteLine($"Year Level     : {yearLevel}");
+        Console.WriteLine($"Home Location  : {homeLocation}");
+        Console.WriteLine($"Course         : {course}");
+        Console.WriteLine($"Mobile No.     : {mobileNum}");
+        Console.WriteLine($"Personal Email : {personalEmail}");
+    }
+}
